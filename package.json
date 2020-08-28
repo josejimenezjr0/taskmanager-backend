@@ -1,0 +1,33 @@
+{
+  "name": "task-manager-backend",
+  "version": "1.0.0",
+  "description": "Task Manager backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "run-p test:*",
+    "test:mocha": "mocha || true",
+    "test:jest": "jest --silent || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/josejimenezjr0/taskmanager-backend.git"
+  },
+  "author": "Jose Jimenez Jr.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josejimenezjr0/taskmanager-backend/issues"
+  },
+  "homepage": "https://github.com/josejimenezjr0/taskmanager-backend#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^26.4.2",
+    "mocha": "^8.1.2",
+    "npm-run-all": "^4.1.5"
+  }
+}
